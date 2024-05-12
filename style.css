@@ -3,9 +3,16 @@ body {
     font-size: 13px;
     font-weight: 400;
     color:#515076;
+    
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 1110px;
     background-image:url(images/bg.png);
     background-repeat: no-repeat;
-    background-position: 180px 0px;
+    padding-top: 220px;
 
 }
 
@@ -14,7 +21,6 @@ body {
     line-height: 78px;
     text-align: center;
     font-weight: 400;
-    margin-top: 220px;
     margin-bottom: 110px;
    
 
@@ -46,7 +52,7 @@ body {
 
 }
 
-.for-normal-skin {
+.card-product {
     font-size: 12px;
     line-height: 24px;
     color: #A5A3B9;
@@ -62,7 +68,7 @@ body {
 
 }
 
-.puprose-of-the-goods {
+.card-text {
     font-size: 13px;
     line-height: 18px;
     margin-bottom: 15px;
@@ -78,19 +84,19 @@ body {
 
  }
 
-.price {
+.card-price {
     font-size: 20px;
     line-height: 24px;
     font-weight: 700;
 
 }
 
-.price-list {
+.card-product-prace {
     font-weight: 400;
 
 }
 
-.dis-flex {
+.card-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
